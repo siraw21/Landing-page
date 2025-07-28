@@ -1,0 +1,195 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  font-style: Roboto;
+
+}
+
+.hero {
+  background: #1F2937;
+  color: rgb(168, 168, 168);
+  display: flex;
+  flex-wrap: wrap;
+  
+} 
+
+.hero__nav {
+  padding-right:1rem ;
+  padding-left: 1rem ;
+
+
+  width: 100vw;
+}
+
+.nav__div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.hero__logo  a {
+  font-size: 1.3rem;
+  color: #F9FAF8;
+}
+
+li a {
+  font-size: 1rem;
+  color: #E5E7EB;
+}
+
+li {
+  margin-right: 0.7rem;
+  list-style: none;
+  display: inline-block;
+}
+
+#hero__main__text {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #F9FAF8;
+}
+
+.hero__par {
+  color:#E5E7EB ;
+}
+
+.hero__sec {
+  display: flex;
+  justify-content: space-between;
+  padding: 4.5rem;
+  gap: 4rem;
+}
+
+.hero__right {
+  flex: 1;
+}
+
+.hero__left {
+  background-color:#585f69;
+  text-align: center;
+  vertical-align: center;
+  flex: 1;
+}
+
+button {
+  background-color: #3882F6;
+  border-radius: 0.5rem;
+  border: none;
+  width: 7rem;
+
+  padding: 0.3rem;
+
+}
+
+.main__heading {
+  text-align: center;
+  font-size:1rem ;
+  font-weight: 900;
+  color: #1F2937;
+}
+
+.main__imgs {
+  font-size: 1rem;
+  font-weight: 400;
+  color:#404144 ;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 4rem;
+  margin: auto;
+}
+
+.main__img {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex-basis: 30%;
+  
+}
+
+#img {
+  outline: 3px solid #3882F6;
+  padding: 1.5rem;
+  width:4rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+}
+
+.main__quote {
+  padding: 6rem;
+  margin: auto;
+
+  background-color: #E5E7EB;
+  color:#404144 ;
+  font-size: 1.3rem;
+  font-style:italic;
+  font-weight: 400;
+}
+
+#quote__author {
+  display: block;
+  justify-content: space-between;
+
+  text-align: end;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 1.1rem;
+}
+
+.cta {
+  padding: 5rem;
+  margin: auto;
+}
+
+.cta__div {
+  display: flex;
+
+  background-color: #3882F6;
+  color: #f3f8ff;
+  border-radius: 0.5rem;
+}
+
+.cta__text {
+  flex: 1;
+  
+  padding: 1rem;
+  margin: auto;
+}
+
+.cta__div p {
+  font-size: 0.9rem;
+}
+
+.cta__button{
+  flex: 1;
+  align-self: self-end;
+  display: flex;
+  justify-content: center;
+
+  padding: 1rem;
+  margin: auto;
+}
+
+#cta__button {
+  text-align: center;
+  color:#f3f8ff ;
+  border:1px solid  #f3f8ff ;
+  width: 5.5rem;
+  cursor: pointer;
+}
+
+.Copyright {
+  display: flex;
+  justify-content: center;
+  
+  padding: 1rem;
+  margin: 0;
+  font-size: 1rem;
+  background-color: #1F2937;
+  color:#f3f8ff ;
+}
+
